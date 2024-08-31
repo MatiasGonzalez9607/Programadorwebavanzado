@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "Espada de Aragorn",
+      "precio": 120.00,
+      "stock": 10,
+      "code": "EA123",
+      "description": "Espada de gran calidad, utilizada por Aragorn en la saga."
+    },
+    {
+      "id": 2,
+      "name": "Anillo Único",
+      "precio": 500.00,
+      "stock": 1,
+      "code": "AU456",
+      "description": "El anillo más poderoso, forjado por Sauron."
+    },
+    {
+        "id": 3,
+        "name": "Capa Élfica",
+        "precio": 80.00,
+        "stock": 15,
+        "code": "CE789",
+        "description": "Elegante capa con tejido ligero, usada por los elfos."
+      },
+      {
+        "id": 4,
+        "name": "Hacha de Gimli",
+        "precio": 150.00,
+        "stock": 5,
+        "code": "HG012",
+        "description": "Hacha robusta, utilizada por Gimli en sus aventuras."
+      },
+      {
+        "id": 5,
+        "name": "Bastón de Gandalf",
+        "precio": 200.00,
+        "stock": 3,
+        "code": "BG345",
+        "description": "Bastón mágico, usado por Gandalf en la lucha contra el mal."
+      },
+      {
+        "id": 6,
+        "name": "Escudo de Gondor",
+        "precio": 100.00,
+        "stock": 7,
+        "code": "EG678",
+        "description": "Escudo resistente con el emblema de Gondor, ideal para batallas."
+      },
+      {
+        "id": 7,
+        "name": "Botas de Legolas",
+        "precio": 90.00,
+        "stock": 12,
+        "code": "BL901",
+        "description": "Botas ligeras y cómodas, perfectas para los viajes largos de un elfo."
+      },
+      {
+        "id": 8,
+        "name": "Collar de Arwen",
+        "precio": 70.00,
+        "stock": 8,
+        "code": "CA234",
+        "description": "Collar elegante y mágico, usado por Arwen en sus apariciones."
+      }
+  ]
+  
