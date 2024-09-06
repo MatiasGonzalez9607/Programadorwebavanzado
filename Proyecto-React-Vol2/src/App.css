@@ -1,0 +1,264 @@
+/* Estilos Globales */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh; 
+  background-image: url('./assets/Fondo.jpg');
+  }
+
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  height: 100vh; 
+  background-image: url('./../src/assets/fondo-home.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white; 
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+/* Estilos  para el título y párrafos */
+.container-home h1 {
+  font-size: 2.5rem; 
+  margin-bottom: 20px; 
+}
+
+.container-home p {
+  font-size: 1.5rem; 
+}
+/* Encabezados */
+h1, h2 {
+  font-family: 'Uncial Antiqua', cursive;
+  color: #d4af37;
+}
+
+/* Enlaces */
+a {
+  text-decoration: none;
+  color: #d4af37;
+}
+
+a:hover {
+  color: #4a4a4a;
+}
+
+/* Botones */
+button {
+  background-color: #4a4a4a;
+  color: #fff;
+  border: 2px solid #d4af37;
+  padding: 10px 20px;
+  font-family: 'Almendra SC', serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d4af37;
+  color: #000;
+}
+
+/* Contenedores */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Tarjetas de Producto */
+.product-card {
+  border: 1px solid #d4af37;
+  padding: 15px;
+  margin-bottom: 20px;
+ background-image: url('./assets/fondo1.jpg');
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h2 {
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 1.5rem;
+  color: #d4af37;
+}
+
+.product-card p {
+  font-family: 'Almendra SC', serif;
+  color: #fff;
+  font-size: 1rem;
+}
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  min-height: 100vh; 
+  }
+
+/* Estilos  para el título y párrafos */
+.container h1 {
+  font-size: 3rem; 
+  margin-bottom: 20px; 
+}
+
+.container p {
+  font-size: 1.5rem; 
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: transparent; 
+  padding: 10px 20px; 
+  position: fixed; 
+  width: 100%; 
+  top: 0; 
+  left: 0; 
+  z-index: 1000; 
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center; 
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+
+.navbar-item {
+  margin: 0 15px; 
+}
+
+.navbar-link {
+  color: white; 
+  text-decoration: none; 
+  font-size: 1.2rem; 
+}
+
+.navbar-link:hover {
+  text-decoration: underline; 
+  color: #d4af37;
+}
+/* Estilos  para las páginas de formulario */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: transparent; 
+}
+
+/* Estilo para los campos del formulario */
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color:#d4af37; 
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #4a4a4a;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  border-color: #d4af37; 
+  outline: none; 
+}
+
+/* Estilo para los botones */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #393a3a; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color:#d4af37; 
+}
+
+/* Estilo para el título de la página */
+.page-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color:#d4af37; 
+}
+.container-detalle {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Título del producto */
+.titulo-producto {
+  font-size: 2.5rem;
+  font-family: 'Uncial Antiqua', serif;
+  margin-bottom: 20px;
+  color:#d4af37;
+  text-align: center;
+}
+
+/* Información del producto */
+.info-producto {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+/* Precio del producto */
+.precio-producto {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0d0d0e; 
+  margin-bottom: 20px;
+}
+
+/* Botón de volver */
+.back-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #282829;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.back-button:hover {
+  background-color: #d4af37;
+}
